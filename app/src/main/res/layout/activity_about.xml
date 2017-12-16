@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.twelo.renter.AboutActivity">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/app_bar"
+            layout="@layout/app_bar" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app_bar">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_margin="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/app_bar"
+                    android:textSize="35sp"
+                    android:text="About"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="25sp"
+                    android:text="Hello \n\t This is an app in which you can keep record of your Renters. In todays world it's very important to have a eagle eye on the renters.. \n\n\t\t\t This app can contain information of two type of Renters i.e. \n\n 1. Home Renter \n 2. Hostel Renter \n\n Welcome Page is having a list which will provide you with information \n\n 1. Number of Room That place have \n 2. number of renter it have \n\n Simply click on any room to get the information \n\n Later on you will se list of unfilled renter on which you can click and easily enter the information for that particular room :) \n\n later on each renter can be easily edited and deleted too .. \n\n As you will click any of the filled renter's listItem you will be provided all the information of that person . On that pae you will be given Three options \n\n 1. Edit \n 2. Delete \n 3. Call \n\n You can carry forward with any of the action an required by you.. \n\n For any other information call me :))\n\n Saurabh Agrawal \n Developer "
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

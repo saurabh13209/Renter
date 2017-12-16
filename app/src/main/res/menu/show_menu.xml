@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Edit"
+        app:showAsAction="never"
+        android:id="@+id/edit_rent"/>
+
+    <item
+        android:title="Delete"
+        app:showAsAction="never"
+        android:id="@+id/delete_rent"/>
+
+    <item
+        android:title="Call"
+        app:showAsAction="never"
+        android:id="@+id/call_rent"/>
+
+</menu>
